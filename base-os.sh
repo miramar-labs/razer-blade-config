@@ -55,3 +55,5 @@ bash inst-vscode.sh
 # Brew
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# NVTop
+bash inst-nvtop.sh
