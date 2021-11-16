@@ -10,7 +10,7 @@ sudo apt install -y libsqlite3-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm
 
 sudo apt install -y python3-pip libbz2-dev gnome-tweaks cmake
 
-sudo apt install -y lzma liblzma-dev tree gdown
+sudo apt install -y lzma liblzma-dev tree baobab
 
 cat <<EOT >> ~/.bashrc
 set -a
@@ -28,7 +28,7 @@ ggetf() {
 set +a
 EOT
 
-pip3 install virtualenvwrapper
+pip3 install virtualenvwrapper gdown
 
 echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc 
 
