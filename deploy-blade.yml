@@ -1,0 +1,13 @@
+#- import_playbook: ./lvm-expand.yml 
+#- import_playbook: ./base-os.yml 
+#- import_playbook: ../utils/ubu/install-cuda.yml _hosts=_hosts
+#- import_playbook: ../utils/ubu/install-docker-ce.yml _hosts=_hosts
+#- import_playbook: ../utils/ubu/install-chrome.yml _hosts=_hosts
+#- import_playbook: ../utils/ubu/install-nomachine.yml _hosts=_hosts
+#- import_playbook: ../utils/install-jdk.yml _hosts=_hosts _as=aaron
+#- import_playbook: ../utils/install-intellij.yml _hosts=_hosts
+#- import_playbook: ../utils/install-go.yml _hosts=_hosts _as=aaron
+#- import_playbook: ../utils/install-k8s-kubectl.yml _hosts=_hosts
+#- import_playbook: ../utils/install-k8s-kfctl.yml _hosts=_hosts
+#- import_playbook: ../utils/install-k8s-helm.yml _hosts=_hosts
+

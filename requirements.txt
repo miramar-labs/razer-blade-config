@@ -1,0 +1,8 @@
+matplotlib
+pandas>=1.0.0
+requests
+pyyaml
+pillow>=6.0.0
+scikit-learn
+scipy
+spacy
