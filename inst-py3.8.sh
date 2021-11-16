@@ -13,8 +13,6 @@ deactivate
 rm -rf ~/venv/py3.8.0_$TAG
 bash ./pyvenv.sh 3.8.0 $TAG
 
-#echo 'source $HOME/venv/py3.8.0_$TAG/bin/activate' >> ~/.bashrc 
-
 
 
 

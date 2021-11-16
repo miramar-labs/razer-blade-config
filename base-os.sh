@@ -49,5 +49,8 @@ bash inst-cudnn-11.0.3.sh
 # Sublime Text
 bash inst-sublime.sh
 
+# VSCode
+bash inst-vscode.sh
+
 
 
