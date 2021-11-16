@@ -46,6 +46,8 @@ bash inst-cuda-11.0.3.sh
 # cuDNN
 bash inst-cudnn-11.0.3.sh
 
+# Sublime Text
+bash inst-sublime.sh
 
 
 
