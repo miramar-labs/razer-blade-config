@@ -10,7 +10,7 @@ sudo apt install -y libsqlite3-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm
 
 sudo apt install -y python3-pip libbz2-dev gnome-tweaks cmake
 
-sudo apt install -y lzma liblzma-dev tree baobab
+sudo apt install -y lzma liblzma-dev tree baobab htop
 
 cat <<EOT >> ~/.bashrc
 set -a
@@ -55,3 +55,5 @@ bash inst-vscode.sh
 # Brew
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# NVTop
+bash inst-nvtop.sh
