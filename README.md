@@ -9,24 +9,11 @@
   - sublime
   - mathematica
   - java
-  - tree
   - go
   - k8s tools
-  - cmake
-
-        sudo apt install cmake
   - nvtop
-
-        git clone https://github.com/Syllo/nvtop.git
-        mkdir -p nvtop/build && cd nvtop/build
-        cmake ..
-        make
-        sudo make install
-
   - nomachine
-  - baobab
 
-        sudo apt-get install baobab
 
   
 # Fix Lid close issue
