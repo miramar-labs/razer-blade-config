@@ -39,7 +39,7 @@ This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZ
   - NVidia driver
   - CUDA Toolikt/cuDNN/nvvp/nvtop
   - jupyterlab
-  - PyTorch
+  - PyTorch (GPU Build)
   - Tensorflow2 (GPU build)
   - ML stack: numpy/scipy/pandas/matplotlib ...
   - fast.ai
