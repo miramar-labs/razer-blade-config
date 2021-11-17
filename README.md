@@ -2,6 +2,8 @@
 
 This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI workstation.
 
+![AI Workstation](./screenshot.png)
+
 ## Install Ubunti 20.04
  - Use a USB stick to install Ubuntu
    - remember to select LVM when configuring disks
@@ -27,11 +29,11 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - vscode
   - sublime
   - mathematica
-  - java
-  - go
+  - java/go/python
   - k8s tools
   - nvtop
   - nomachine
+  - fast.ai
   - NVidia drivers & CUDA Toolikt
   - OpenAI Gym
 
