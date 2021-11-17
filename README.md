@@ -1,6 +1,6 @@
 # Razer Blade 15 AI Workstation Configuration
 
-This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZBM9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Laptop (with NVidia GPU) into an AI workstation. Specs:
+This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZBM9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Gaming Laptop into an AI workstation. Specs:
    - 64 GB RAM
    - 1TB SSD
    - NVidia GeForce RTX 2070 Max-Q GPU
