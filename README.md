@@ -24,10 +24,6 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
 
         bash all.sh
 # Notes
-  - brew
-  
-  	    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
   - vscode
   - sublime
   - mathematica
