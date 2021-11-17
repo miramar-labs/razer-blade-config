@@ -12,4 +12,7 @@ sh ~/Downloads/cuda_${CUDAVERFULL}_linux-002.run --silent --toolkit --samples --
 echo 'export PATH=/usr/local/cuda-11.0/bin:$PATH' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
 
+# Profiler
+echo "alias nvvp='nvvp -vm /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java'" >> ~/.bashrc
+
  
