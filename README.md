@@ -31,9 +31,7 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
 ## Installed Packages
   - vscode
   - sublime text
-  - mathematica
   - c++/java/go/python
-  - k8s tools
   - nomachine
   - NVidia drivers & CUDA Toolikt
   - nvtop

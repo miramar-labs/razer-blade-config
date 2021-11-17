@@ -57,3 +57,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 # NVTop
 bash inst-nvtop.sh
+
+# NoMachine
+bash inst-nomachine.sh
