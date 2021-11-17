@@ -34,7 +34,7 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - c++/java/go/python
   - nomachine
   - NVidia drivers & CUDA Toolikt
-  - nvtop
+  - nvtop/nvvp
   - mathematica
   - fast.ai
   - OpenAI Gym
