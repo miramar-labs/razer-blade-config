@@ -33,7 +33,6 @@ This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZ
 ## Installed Software
   - vscode
   - sublime text
-  - c++/java/go/python
   - nomachine
   - mathematica
   - NVidia driver
