@@ -37,7 +37,7 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - nomachine
   - mathematica
   - NVidia driver
-  - CUDA Toolikt/cuDNN/nvvpp/nvtop
+  - CUDA Toolikt/cuDNN/nvpp/nvtop
   - jupyterlab
   - PyTorch
   - Tensorflow2 (GPU build)
