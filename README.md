@@ -11,21 +11,23 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
  - Use a USB stick to install Ubuntu
    - remember to select LVM when configuring disks
  - Fix the'suspend on lid closed' bug by editing GRUB:
+   - NOTE: this is an issue with my particular laptop hardware/BIOS and may be optional
    - edit /etc/default/grub:
-          add `button.lid_init_state=open`:
+
+        add `button.lid_init_state=open`:
 
           GRUB_CMDLINE_LINUX_DEFAULT="quiet splash button.lid_init_state=open"
           GRUB_CMDLINE_LINUX="button.lid_init_state=open"
    - rebuild grub:
 
 	      update-grub
-  - Generate SSH keys:
+- Generate SSH keys:
 
         ssh-keygen
 
-  - Add your SSH public key to Github
+- Add your SSH public key to Github
 
-  - Clone this repo and run:
+- Clone this repo and run:
 
         bash all.sh
 ## Installed Software
@@ -35,6 +37,8 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - nomachine
   - NVidia drivers & CUDA Toolikt
   - nvtop/nvvp
+  - jupyterlab
+  - ML stack: numpy/scipy/pandas/matplotlib ...
   - mathematica
   - fast.ai
   - OpenAI Gym
