@@ -61,9 +61,6 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
         CUDAVER=11.0.3
         CUDAVERFULL=${CUDAVER}_450.51.06
 
-        CUDAVER=11.0.3
-        CUDAVERFULL=${CUDAVER}_450.51.06
-
         wget "https://developer.download.nvidia.com/compute/cuda/$CUDAVER/local_installers/cuda_${CUDAVERFULL}_linux-002.run" -P ~/Downloads
 
         sh ~/Downloads/cuda_${CUDAVERFULL}_linux-002.run --silent --toolkit --samples --no-opengl-libs 
