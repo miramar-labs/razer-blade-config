@@ -1,24 +1,14 @@
 #!/usr/bin/env bash
 
-# fast.ai 2.5.3 min deps:
-pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.1 -f https://download.pytorch.org/whl/cu110/torch_stable.html
+bash inst-torch.sh
 
-pip3 install tensorflow==2.4.1
+bash inst-tf2.sh
 
-pip3 install jupyterlab 
+bash inst-jlab.sh
 
-pip3 install fastai==2.5.3 nbdev -c constraints.txt
+bash inst-fastai.sh
 
-pushd ~
-git clone git@github.com:fastai/fastai.git
-#pip3 install -e "fastai[dev]" -c constraints.txt
-
-git clone git@github.com:fastai/fastbook.git
-
-#git clone git@github.com:fastai/nbdev.git
-#pip3 install -e nbdev
-popd
-
+bash inst-openai-gym.sh
 
 
 
