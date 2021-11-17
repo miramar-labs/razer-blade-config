@@ -18,8 +18,8 @@ renv() {
   source $HOME/.bashrc  
 }
 gget() {
-  echo "gdown  https://drive.google.com/uc?id=$1"
-  gdown  https://drive.google.com/uc?id=$1
+  echo "gdown  https://drive.google.com/uc?id=$1 -O $2"
+  gdown  https://drive.google.com/uc?id=$1 -O $2
 }
 ggetf() {
   echo "gdown https://drive.google.com/drive/folders/$1 -O $2 --folder"
