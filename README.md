@@ -36,6 +36,8 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - k8s tools
   - nvtop
   - nomachine
+  - NVidia drivers & CUDA Toolikt
+  - OpenAI Gym
 
 # Installing NVidia Driver & CUDA Toolkit 
 
