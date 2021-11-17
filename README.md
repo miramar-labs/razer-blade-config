@@ -35,14 +35,13 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - sublime text
   - c++/java/go/python
   - nomachine
-  - NVidia drivers & CUDA Toolikt
-  - cuDNN 
-  - nvtop/nvvp
+  - mathematica
+  - NVidia driver
+  - CUDA Toolikt/cuDNN/nvvpp/nvtop
   - jupyterlab
   - PyTorch
-  - Tensorflow2
+  - Tensorflow2 (GPU build)
   - ML stack: numpy/scipy/pandas/matplotlib ...
-  - mathematica
   - fast.ai
   - OpenAI Gym
 
