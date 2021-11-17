@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-gget 1wjDyovMwULArogNlqRvGyy0hhiYdP4TM ~/Downloads
+ggetf 1dZe_aaLLxekh_TWv0_Y7ePq6-OTwl6WV ~/Downloads/Mathematica/
 
-bash ~/Downloads/Mathematica_12.0.0_LINUX.sh --silent
+bash ~/Downloads/Matghematica/v12/Mathematica_12.0.0_LINUX.sh --silent
 
