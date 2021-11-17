@@ -2,7 +2,7 @@
 
 This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI workstation.
 
-![AI Workstation](./screenshot.png)
+![AI Workstation](./scrnshot.png)
 
 ## Install Ubunti 20.04
  - Use a USB stick to install Ubuntu
