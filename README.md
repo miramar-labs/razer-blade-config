@@ -11,7 +11,7 @@ This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZ
  - Use a USB stick to install Ubuntu
    - remember to select LVM when configuring disks (if you ever want to expand your root volume with additional disks)
  - Fix the'suspend on lid closed' bug by editing GRUB:
-   - NOTE: this is an issue with my particular laptop hardware/BIOS and may be OPTIONAL
+   - NOTE: this is an issue with my particular laptop hardware/BIOS and may be OPTIONAL for you
    - edit /etc/default/grub:
 
         add `button.lid_init_state=open`:
