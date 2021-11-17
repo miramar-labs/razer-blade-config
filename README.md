@@ -28,16 +28,16 @@ This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI worksta
   - Clone this repo and run:
 
         bash all.sh
-# Notes
+# Installed Packages
   - vscode
-  - sublime
+  - sublime text
   - mathematica
-  - java/go/python
+  - c++/java/go/python
   - k8s tools
-  - nvtop
   - nomachine
-  - fast.ai
   - NVidia drivers & CUDA Toolikt
+  - nvtop
+  - fast.ai
   - OpenAI Gym
 
 # Installing NVidia Driver & CUDA Toolkit 
