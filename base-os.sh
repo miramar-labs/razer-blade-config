@@ -60,3 +60,6 @@ bash inst-nvtop.sh
 
 # NoMachine
 bash inst-nomachine.sh
+
+# Mathematica
+bash inst-mathematica.sh
