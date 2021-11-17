@@ -3,5 +3,5 @@
 pushd ~
 git clone https://github.com/openai/gym
 cd gym
-pip install -e .
+pip3 install -e .
 popd
