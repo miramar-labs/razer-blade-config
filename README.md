@@ -1,6 +1,29 @@
-### Razer Blade Config
+# Razer Blade 15 AI Workstation Config
 
-# Installs
+This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI workstation.
+
+## Install Ubunti 20.04
+ - Use a USB stick to install Ubuntu
+   - remember to select LVM when configuring disks
+ - Fix the'suspend on lid closed' bug by editing GRUB:
+   - edit /etc/default/grub:
+          add `button.lid_init_state=open`:
+
+          GRUB_CMDLINE_LINUX_DEFAULT="quiet splash button.lid_init_state=open"
+          GRUB_CMDLINE_LINUX="button.lid_init_state=open"
+   - rebuild grub:
+
+	      update-grub
+  - Generate SSH keys:
+
+        ssh-keygen
+
+  - Add your SSH public key to Github
+
+  - Clone this repo and run:
+
+        bash all.sh
+# Notes
   - brew
   
   	    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -13,18 +36,6 @@
   - k8s tools
   - nvtop
   - nomachine
-
-
-  
-# Fix Lid close issue
-
-  - edit /etc/default/grub:
-
-        GRUB_CMDLINE_LINUX_DEFAULT="quiet splash button.lid_init_state=open"
-        GRUB_CMDLINE_LINUX="button.lid_init_state=open"
-  - rebuild grub:
-
-	    update-grub
 
 # Installing NVidia Driver & CUDA Toolkit 
 
