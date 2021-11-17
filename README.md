@@ -3,7 +3,7 @@
 This is how I turn my Razer Blade 15 Laptop (with NVidia GPU) into an AI workstation. Specs:
    - 64 GB RAM
    - 1TB SSD
-   - NVidia GeForece RTX 2070 Max-Q GPU
+   - NVidia GeForce RTX 2070 Max-Q GPU
 
 ![AI Workstation](./scrnshot.png)
 
