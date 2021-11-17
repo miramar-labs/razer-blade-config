@@ -12,3 +12,5 @@ source $HOME/venv/py3.8.0_$TAG/bin/activate
 
 bash inst-ai-stack.sh
 
+echo 'py3.8.0_blade' >> ~/.bashrc
+
