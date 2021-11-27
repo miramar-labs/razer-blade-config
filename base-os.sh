@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Passwordless sudo:
+bash nopasswd.sh
+
+# Common System packages:
 sudo apt update
 
 sudo apt install -y linux-headers-$(uname -r)
@@ -10,7 +14,7 @@ sudo apt install -y libsqlite3-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm
 
 sudo apt install -y python3-pip libbz2-dev gnome-tweaks cmake
 
-sudo apt install -y lzma liblzma-dev tree baobab htop
+sudo apt install -y lzma liblzma-dev tree baobab htop cpu-checker
 
 cat <<EOT >> ~/.bashrc
 set -a
@@ -37,14 +41,24 @@ git config --global user.email "aaron@aaroncody.com"
 git config --global user.name "Aaron Cody"
 git config --global push.default simple
 
-# NVidia driver
-bash inst-nvidia-pkg.sh
+if [ -z "NO_NVIDIA_DRIVER" ]; then
+  # NVidia driver
+  bash inst-nvidia-pkg.sh
+fi
 
-# CUDA Toolkit
-bash inst-cuda-11.0.3.sh
+if [ -z "NO_NVIDIA_CUDA" ]; then
+  # CUDA Toolkit
+  bash inst-cuda-11.0.3.sh
 
-# cuDNN
-bash inst-cudnn-11.0.3.sh
+  # cuDNN
+  bash inst-cudnn-11.0.3.sh
+fi
+
+# Docker
+bash inst-docker-ce.sh
+
+# NVidia docker
+bash inst-nvdocker.sh
 
 # Sublime Text
 bash inst-sublime.sh
@@ -63,3 +77,7 @@ bash inst-nomachine.sh
 
 # Mathematica
 bash inst-mathematica.sh
+
+# VM Software
+bash inst-vkm.sh
+bash inst-vbox.sh
