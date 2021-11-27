@@ -2,5 +2,5 @@
 
 bash base-os.sh
 
-bash packages.sh
+bash ai-stack.sh
 
