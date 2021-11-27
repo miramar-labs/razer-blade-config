@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Passwordless sudo:
-bash nopasswd.sh
+bash ./utils/nopasswd.sh
 
 # Common System packages:
 sudo apt update
@@ -12,7 +12,7 @@ sudo apt install -y python3-pip build-essential git-core libffi-dev libssl-dev a
 
 sudo apt install -y libsqlite3-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev libnss3-dev libreadline-dev libffi-dev terminator
 
-sudo apt install -y python3-pip libbz2-dev gnome-tweaks cmake
+sudo apt install -y python3-pip libbz2-dev gnome-tweaks cmake chrome-gnome-shell
 
 sudo apt install -y lzma liblzma-dev tree baobab htop cpu-checker
 
@@ -54,11 +54,13 @@ if [ -z "NO_NVIDIA_CUDA" ]; then
   bash inst-cudnn-11.0.3.sh
 fi
 
+if [ -z "NO_DOCKER" ]; then
 # Docker
 bash inst-docker-ce.sh
 
 # NVidia docker
 bash inst-nvdocker.sh
+fi
 
 # Sublime Text
 bash inst-sublime.sh
@@ -75,9 +77,13 @@ bash inst-nvtop.sh
 # NoMachine
 bash inst-nomachine.sh
 
+if [ -z "NO_MATHEMATICA" ]; then
 # Mathematica
 bash inst-mathematica.sh
+fi
 
+if [ -z "NO_VM" ]; then
 # VM Software
 bash inst-vkm.sh
 bash inst-vbox.sh
+fi
