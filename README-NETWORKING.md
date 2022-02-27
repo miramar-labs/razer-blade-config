@@ -29,3 +29,18 @@ Also note, we only do this for the wired connection - leave WIFI connection as D
 - Check status:
 
       sudo resolvctl status
+
+
+## ISSUES:
+
+- Sometimes the DNS ordering can get overwritten, so to fix this:
+
+      sudo netplan restart
+
+      (alias=fixdns)
+
+Should restore to:
+
+      sudo resolvctl status
+      ...
+      Current DNS Server: 192.168.0.254
