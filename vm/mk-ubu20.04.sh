@@ -2,9 +2,9 @@
 
 gget 1STPUSVikNOIRev-U83EFjUCnMqBbWsQC /tmp/
 
-sudo mkdir -p /var/lib/libvirt/images/Ubuntu-20-04/
+$SUDO mkdir -p /var/lib/libvirt/images/Ubuntu-20-04/
 
-sudo virt-install \
+$SUDO virt-install \
 --name=ubu2004 \
 --description='Ubuntu 20.04' \
 --ram=1536 \

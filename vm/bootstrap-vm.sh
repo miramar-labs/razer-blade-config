@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-sudo apt update
+$SUDO apt update
 
-sudo apt install -y git
+$SUDO apt install -y git
 
 pip3 install virtualenvwrapper gdown
 

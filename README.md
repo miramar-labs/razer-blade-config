@@ -29,7 +29,7 @@ This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZ
 
 - Clone this repo and run:
 
-        bash all.sh
+        bash inst/all.sh
 ## Installed Software
   - vscode
   - sublime text
@@ -44,3 +44,8 @@ This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZ
   - fast.ai
   - OpenAI Gym
 
+## Docker Container Notes
+
+    docker run -it --rm -p 127.0.0.1:8081:8080 registry.lan.aaroncody.com:5000/gpu/ai-notebook:TEST bash
+
+    docker run -it --rm -p 127.0.0.1:8081:8080 registry.lan.aaroncody.com:5000/gpu/ai-notebook:TEST bash
