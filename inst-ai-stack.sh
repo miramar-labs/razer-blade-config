@@ -20,6 +20,6 @@ bash ./inst-jlab.sh
 
 #bash ./inst-openai-gym.sh
 
-
+bash ./inst-ansible.sh
 
 
