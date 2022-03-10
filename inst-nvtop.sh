@@ -3,6 +3,8 @@
 cd ~
 git clone https://github.com/Syllo/nvtop.git
 mkdir -p nvtop/build && cd nvtop/build
-cmake ..
+sudo apt-get update -y
+sudo apt-get install -y cmake ncurses-dev
+cmake .. -DNVML_RETRIEVE_HEADER_ONLINE=True
 make
-$SUDO make install
+sudo make install

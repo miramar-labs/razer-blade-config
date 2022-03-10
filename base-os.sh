@@ -17,7 +17,7 @@ $SUDO apt update
 
 $SUDO apt install -y linux-headers-$(uname -r)
 
-$SUDO apt install -y apt-utils build-essential git-core autoconf automake cmake libtool 
+$SUDO apt install -y apt-utils build-essential git-core autoconf automake cmake libtool openssh-server
 
 $SUDO apt install -y libcurl4-openssl-dev libxml2-dev libfuse-dev libffi-dev libssl-dev libbz2-dev lzma liblzma-dev
 
