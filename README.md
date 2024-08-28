@@ -7,7 +7,7 @@ This is how I turn my [Razer Blade 15](https://www.amazon.com/gp/product/B086MFZ
 
 ![AI Workstation](./scrnshot.png)
 
-## Install Ubunti 20.04
+## Install Ubuntu 20.04
  - Use a USB stick to install Ubuntu
    - remember to select LVM when configuring disks (if you ever want to expand your root volume with additional disks)
  - Fix the'suspend on lid closed' bug by editing GRUB:
